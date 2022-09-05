@@ -1,0 +1,21 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "capabilities": {
+    "project": "Wikipedia Test Automation",
+    "build": "Smoke Test Run",
+    "name": "Search Test Suite",
+    "browserstack.debug": "true",
+    "browserstack.idleTimeout": "120",
+    "app": "bs://bc2cf14e13820bc582c044a0669ba2d98cc58c39"
+  },
+  "environments": [
+    {
+      "device": "Google Pixel 6",
+      "os_version": "12.0"
+    },
+    {
+      "device": "Samsung Galaxy S21",
+      "os_version": "11.0"
+    }
+  ]
+}
